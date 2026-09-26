@@ -208,16 +208,24 @@ img{
        margin-top: 15%;
        width: 80%;
    }
-
+div.sobremim{
+  
+   font-size: 2vh;
+   line-height: 1.5rem;
+   text-align: justify;
+}
 
    .linkInstagram{
     padding: 10px 5%;
+    font-size: 2vh;
    }
    .linkGitHub{
     padding: 10px 5%;
+    font-size: 2vh;
    }
    .linkedin{
     padding: 10px 5%;
+    font-size: 2vh;
    }
 
 
