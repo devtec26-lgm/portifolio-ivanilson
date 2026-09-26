@@ -38,46 +38,47 @@ nav.cabecalho{
    gap: 20%;
 }
 
-a.cabecalhoLink{
+a.cabecalhoLink {
    text-decoration: none;
-   font-size: 1.2rem;
+   font-size: 2.8vh;
    font-family: var(--font-principal);
    font-weight: bold;
    color: var(--cor-primaria);
 }
 
 
-main{
- 
+main {
+
    display: flex;
+   background-color: rgba(13, 1, 61, 0.8);
    background-image: url('img/free-video-3129671.avif');
-   /*background-color: rgba(13, 1, 61, 0.8);
-   height: 60vh;*/
+
+   /*height: 60vh;*/
    color: var(--cor-terciaria);
    font-family: var(--font-secundaria);
    gap: 50px;
 }
 
 
-.sobremimFundo{
- 
-   background-image: url('img/high-tech-eye.jpg') ;
+.sobremimFundo {
+
+   background-image: url('img/high-tech-eye.jpg');
    background-size: cover;
    background-repeat: no-repeat;
- 
+
 }
 
-.fundo{
+.fundo {
    display: flex;
    align-items: center;
    align-content: center;
- 
+
    flex-wrap: wrap-reverse;
    gap: 50px;
    background-color: rgba(1, 2, 41, 0.6);
 }
 
-section.apresentacao{
+section.apresentacao {
    font-size: 3vh;
    display: flex;
    padding-top: 21vh;
@@ -85,13 +86,14 @@ section.apresentacao{
    padding-bottom: 10vh;
    flex-direction: column;
    text-align: left;
-   width: 30%;  
+   width: 30%;
 }
 
-#textoaAzul{
+#textoaAzul {
    color: var(--cor-primaria);
 }
-div.sobre{
+
+div.sobre {
    width: 100%;
    padding-top: 3vh;
    font-size: 3.1vh;
@@ -99,7 +101,7 @@ div.sobre{
    text-align: justify;
 }
 
-div.sobremim{
+div.sobremim {
    width: 100%;
    padding-top: 3vh;
    font-size: 3vh;
@@ -107,131 +109,162 @@ div.sobremim{
    text-align: left;
 }
 
-div.redes{
+div.redes {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    gap: 1.5%;
    padding-top: 6%;
- 
+
 }
 
 
-.linkGitHub{
+.linkGitHub {
    text-decoration: none;
    color: var(--cor-secundaria);
-   font-size: 2.5vh;
+   font-size: 2.2vh;
    font-family: var(--font-principal);
    font-weight: bold;
    background: var(--cor-primaria);
-   padding: 10px 7%;
+   padding: 10px 5%;
    border-radius: 10px;
 }
 
-.linkGitHub:hover{
+.linkGitHub:hover {
    background-color: rgba(220, 200, 150, 0.2);
    box-shadow: 0px 0px 10px var(--cor-caixa-clean);
    color: var(--cor-primaria);
    transition: 0.2s;
 }
 
-.linkedin{
-text-decoration: none;
-   color: var(--cor-secundaria);
-   font-size: 2.5vh;
-   font-family: var(--font-principal);
-   font-weight: bold;
-   background: var(--cor-primaria);
-   padding: 10px 7%;
-   border-radius: 10px;
-}
-.linkedin:hover{
-   background-color: rgba(220, 200, 150, 0.2);
-   box-shadow: 0px 0px 10px var(--cor-caixa-clean);
-   color: var(--cor-primaria);
-   transition: 0.2s;
-}
-
-.linkInstagram{
+.linkedin {
    text-decoration: none;
    color: var(--cor-secundaria);
-   font-size: 2.5vh;
+   font-size: 2.2vh;
    font-family: var(--font-principal);
    font-weight: bold;
    background: var(--cor-primaria);
-   padding: 10px 7%;
+   padding: 10px 5%;
    border-radius: 10px;
 }
-.linkInstagram:hover{
+
+.linkedin:hover {
    background-color: rgba(220, 200, 150, 0.2);
    box-shadow: 0px 0px 10px var(--cor-caixa-clean);
    color: var(--cor-primaria);
    transition: 0.2s;
 }
 
-section.foto{
-   display: flex;  
+.linkInstagram {
+   text-decoration: none;
+   color: var(--cor-secundaria);
+   font-size: 2.2vh;
+   font-family: var(--font-principal);
+   font-weight: bold;
+   background: var(--cor-primaria);
+   padding: 10px 5%;
+   border-radius: 10px;
+}
+
+.linkInstagram:hover {
+   background-color: rgba(220, 200, 150, 0.2);
+   box-shadow: 0px 0px 10px var(--cor-caixa-clean);
+   color: var(--cor-primaria);
+   transition: 0.2s;
+}
+
+section.foto {
+   display: flex;
    justify-content: center;
    width: auto;
-   margin-top: 12vh;  
+   margin-top: 12vh;
 }
 
 
-img{
+img {
    width: 52vh;
    border-radius: 10%;
    border: 2px solid var(--cor-primaria);
    box-shadow: 0px 0px 15px var(--cor-primaria);
- 
-}
-
-@media (max-width: 680px){
-   main{
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       gap: 4%;
-   }
-   section.apresentacao{
-       width: 80%;
-       padding: 0% 10% 0% 10%;
-       margin:10% auto 5% auto;
-       text-align: center;
-   }
-   section.foto{
-       width: 80%;
-       justify-content: center;
-       margin: 10% auto 0% auto;
-       padding: 0% 20% 0% 20%;
-   }
-   img{
-       margin-top: 15%;
-       width: 80%;
-   }
-
-   div.sobremim{
-  
-   font-size: 2vh;
-   line-height: 1.5rem;
-   text-align: justify;
-}
-
-   .linkInstagram{
-    padding: 10px 4%;
-    font-size: 1.5vh;
-   }
-   .linkGitHub{
-    padding: 10px 4%;
-    font-size: 1.5vh;
-   }
-   .linkedin{
-    padding: 10px 4%;
-    font-size: 1.5vh;
-   }
-
 
 }
-footer{
+
+@media (max-width: 800px) {
+   main {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+   }
+
+   nav.cabecalho {
+      width: 80%;
+      gap: 15%;
+   }
+
+   a.cabecalhoLink {
+      font-size: 2.6vh;
+   }
+
+   section.apresentacao {
+      width: 80%;
+      padding: 0% 10% 0% 10%;
+      margin: auto auto 5% auto;
+      text-align: center;
+   }
+
+   section.apresentacao h2 {
+      font-size: 1rem;
+   }
+
+   .sobre p {
+      font-size: 2.5vh;
+   }
+
+
+   section.foto {
+      width: auto;
+      justify-content: center;
+      margin: 15vh auto 0 auto;
+      padding: 0% 20% auto 20%;
+   }
+
+   img {
+      margin-top: 15%;
+      width: 80%;
+   }
+
+
+   div.sobremim {
+
+      font-size: 2.5vh;
+      line-height: 1.5rem;
+      text-align: justify;
+   }
+
+   .linkInstagram {
+      padding: 10px 3.5%;
+      font-size: 2vh;
+   }
+
+   .linkGitHub {
+      padding: 10px 3.5%;
+      font-size: 2vh;
+   }
+
+   .linkedin {
+      padding: 10px 3.5%;
+      font-size: 2vh;
+   }
+
+   footer p {
+      font-size: 0.7rem;
+
+   }
+
+}
+
+footer {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -239,7 +272,6 @@ footer{
    color: var(--cor-secundaria);
    font-family: var(--font-principal);
    font-size: 1rem;
-   font-weight:500;
+   font-weight: 500;
    height: 8vh;
- 
 }
