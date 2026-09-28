@@ -244,19 +244,28 @@ img {
       text-align: left;
    }
 
+    .redes{
+      display: flex;
+      flex-direction:column;
+      gap: 1vh;
+   }
+    
    .linkInstagram {
       padding: 10px 3.5%;
       font-size: 2.2vh;
+       margin: 1.5vh 0;
    }
 
    .linkGitHub {
       padding: 10px 3.5%;
       font-size: 2.2vh;
+       margin: 1.5vh 0;
    }
 
    .linkedin {
       padding: 10px 3.5%;
       font-size: 2.2vh;
+       margin: 1.5vh 0;
    }
 
    footer p {
