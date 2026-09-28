@@ -75,7 +75,7 @@ main {
 
    flex-wrap: wrap-reverse;
    gap: 50px;
-   background-color: rgba(1, 2, 41, 0.6);
+   background-color: rgba(1, 2, 41, 0.8);
 }
 
 section.apresentacao {
@@ -203,7 +203,7 @@ img {
    }
 
    a.cabecalhoLink {
-      font-size: 2.6vh;
+      font-size: 2.9vh;
    }
 
    section.apresentacao {
@@ -219,7 +219,7 @@ img {
    }
 
    .sobre p {
-      font-size: 1.6rem;
+      font-size: 2.9vh;
    }
 
 
@@ -238,24 +238,24 @@ img {
 
    div.sobremim {
 
-      font-size: 2.5vh;
+      font-size: 2.9vh;
       line-height: 1.5rem;
       text-align: justify;
    }
 
    .linkInstagram {
       padding: 10px 3.5%;
-      font-size: 2.1vh;
+      font-size: 2.5vh;
    }
 
    .linkGitHub {
       padding: 10px 3.5%;
-      font-size: 2.1vh;
+      font-size: 2.5vh;
    }
 
    .linkedin {
       padding: 10px 3.5%;
-      font-size: 2.1vh;
+      font-size: 2.5vh;
    }
 
    footer p {
