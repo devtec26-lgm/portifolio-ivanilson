@@ -211,14 +211,15 @@ img {
       padding: 0% 10% 0% 10%;
       margin: auto auto 5% auto;
       text-align: center;
+      font-size: 1.5rem; 
    }
-
+/* texto apresentação e sobre*/
    section.apresentacao h2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
    }
 
    .sobre p {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
    }
 
 
