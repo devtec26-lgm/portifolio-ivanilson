@@ -219,7 +219,8 @@ img {
    }
 
    .sobre p {
-      font-size: 2.9vh;
+       font-size: 2.9vh;
+       text-align: left;
    }
 
 
@@ -240,22 +241,22 @@ img {
 
       font-size: 2.9vh;
       line-height: 1.5rem;
-      text-align: justify;
+      text-align: left;
    }
 
    .linkInstagram {
       padding: 10px 3.5%;
-      font-size: 2.5vh;
+      font-size: 2.2vh;
    }
 
    .linkGitHub {
       padding: 10px 3.5%;
-      font-size: 2.5vh;
+      font-size: 2.2vh;
    }
 
    .linkedin {
       padding: 10px 3.5%;
-      font-size: 2.5vh;
+      font-size: 2.2vh;
    }
 
    footer p {
